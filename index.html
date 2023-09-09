@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body>
+    <div class="navbar" id="home">
+      <div class="name">Portfolio</div>
+      <div class="menus">
+        <div class="hamburger"><img src="img/hamburger.png" class="hamburger_img"></div>
+        <div class="dropdown_content">
+          <a href="#home" class="drp_menu">Home</a>
+          <a href="#skills_section" class="drp_menu">Skills</a>
+          <a href="#projects_section" class="drp_menu">Projects</a>
+          <a href="#contact_section" class="drp_menu">Contact</a>
+        </div>
+        <div class="menu"><a href="#home" class="menu_links">Home</a></div>
+        <div class="menu">
+          <a href="#skills_section" class="menu_links">Skills</a>
+        </div>
+        <div class="menu">
+          <a href="#projects_section" class="menu_links">Projects</a>
+        </div>
+        <div class="menu">
+          <a href="#contact_section" class="menu_links">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- After navbar brief about and photo -->
+    <div class="container">
+      <div class="brief_section">
+        <div class="name_brief brief">
+          <div class="hi">Hi, I am&nbsp;</div>
+          <div class="kumar">Amit Kumar</div>
+        </div>
+        <br />
+        <div class="brief web_developer">Web Developer</div>
+        <br />
+        <div class="brief brief_about">
+          I am dedicated to continuous growth and<br />frequently
+          engage in learning to stay at the<br />
+          forefront of Web Development.
+        </div>
+        <br />
+        <div class="contacts">
+          <a
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            class="social_links"
+            ><img src="img/linkedin.png" alt="" class="img_social"
+          /></a>
+
+          <a href="https://t.me/prajapatikuamit" class="social_links"
+            ><img src="img/telegram.png" alt="" class="img_social"
+          /></a>
+
+          <a href="https://github.com/amitpr7" class="social_links"
+            ><img src="img/social.png" alt="" class="img_social"
+          /></a>
+        </div>
+      </div>
+      <div class="profile_image">
+        <img src="img/transparent profile photo 4.png" alt="" class="image" />
+      </div>
+    </div>
+
+    <!-- It is skills, projects and resume section -->
+    <div class="nextcontainer" id="skills_section">
+      <div class="section skills">
+        <div class="skills_heading">Skills</div>
+        <hr class="horizontal_line2" />
+        <div class="skills_brief">I have skills of -</div>
+        <div class="skill_lists">
+          <div class="skills1"><img src="img/html.jpg" alt="" /></div>
+          <div class="skills1"><img src="img/css.jpg" alt="" /></div>
+          <div class="skills1"><img src="img/js.png" alt="" /></div>
+          <div class="skills1"><img src="img/bootstrap.png" alt="" /></div>
+          <div class="skills1"><img src="img/jquery-ar21.png" alt="" /></div>
+          <div class="skills1"><img src="img/nodejs-ar21.png" alt="" /></div>
+          <div class="skills1"><img src="img/c programming.jpg" alt="" /></div>
+          <div class="skills1">
+            <img src="img/cpp-programming-logo.jpg" alt="" />
+          </div>
+          <div class="skills1"><img src="img/python.png" alt="" /></div>
+          <div class="skills1"><img src="img/reactjs-ar21.png" alt="" /></div>
+        </div>
+      </div>
+
+      <!-- This is projects section -->
+      <div class="section projects" id="projects_section">
+        <div class="projects_heading">Projects</div>
+        <hr class="horizontal_line2" />
+        <div class="projects_brief">Projects created -</div>
+        <div class="projects_lists">
+          <div class="projects1">
+            <h1>
+              <a
+                href="https://github.com/amitpr7/recmfreshers2"
+                class="projects_links"
+                >Fresher's Website</a
+              >
+            </h1>
+            <h3>
+              This website is created for college's fresher's party 2023 using
+              HTML, CSS and Javascript.
+            </h3>
+          </div>
+
+          <div class="projects1">
+            <h1>
+              <a
+                href="https://github.com/amitpr7/Palindrome_checker"
+                class="projects_links"
+                >Palindrome Checker</a
+              >
+            </h1>
+            <h3>This is palindrome checker webiste.</h3>
+          </div>
+
+          <div class="projects1">
+            <h1>
+              <a
+                href="https://github.com/amitpr7/Number_to_binary_converter"
+                class="projects_links"
+                >Number to Binary Converter</a
+              >
+            </h1>
+            <h3>This website is created to convert number into binary.</h3>
+          </div>
+
+          <div class="projects1">
+            <h1>
+              <a href="https://github.com/amitpr7/Clock" class="projects_links"
+                >Clock</a
+              >
+            </h1>
+            <h3>Digital Clock website</h3>
+          </div>
+
+          <div class="projects1">
+            <h1>
+              <a
+                href="https://github.com/amitpr7/College-wifi"
+                class="projects_links"
+                >College Wifi Login Page</a
+              >
+            </h1>
+            <h3>This is my college wifi login frontend design.</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume section -->
+      <div class="section resume">
+        <div class="resume_heading">Resume</div>
+        <hr class="horizontal_line2" />
+        <div class="resume_brief">
+          <button
+            class="view_button"
+            onclick="window.open('Resume/resume.pdf', '_blank')"
+          >
+            View Resume
+          </button>
+          <a href="Resume/Resume.pdf" download
+            ><button class="download_button">Download Resume</button></a
+          >
+        </div>
+      </div>
+
+      <!-- Contact section -->
+      <div class="section contact" id="contact_section">
+        <div class="contact_heading">Contact me</div>
+        <hr class="horizontal_line2" />
+        <div class="gmail">Gmail : prajapatikuamit@gmail.com</div>
+        <div class="phone_number">Phone : +916307731687</div>
+      </div>
+    </div>
+
+    <!-- This is footer section -->
+    <div class="footer">
+      <p>© Copyright 2023. All Rights Reserved</p>
+    </div>
+  </body>
+</html>
