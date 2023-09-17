@@ -397,6 +397,6 @@ body {
 
 @media screen and (max-width: 310px) {
   .projects1 {
-    height: 310px;
+    height: 400px;
   }
 }
