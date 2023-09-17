@@ -391,12 +391,12 @@ body {
 
 @media screen and (max-width: 358px) {
   .projects1 {
-    height: 200px;
+    height: 250px;
   }
 }
 
 @media screen and (max-width: 310px) {
   .projects1 {
-    height: 230px;
+    height: 280px;
   }
 }
